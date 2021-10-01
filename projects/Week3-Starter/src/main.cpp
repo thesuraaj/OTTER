@@ -56,7 +56,7 @@ GLFWwindow* window;
 // The current size of our window in pixels
 glm::ivec2 windowSize = glm::ivec2(800, 800);
 // The title of our GLFW window
-std::string windowTitle = "INFR-1350U";
+std::string windowTitle = "Suraaj Gill 100783848";
 
 void GlfwWindowResizedCallback(GLFWwindow* window, int width, int height) {
 	glViewport(0, 0, width, height);
@@ -129,10 +129,10 @@ int main() {
 
 	static const float interleaved[] = {
 		// X Y Z R G B
-		0.5f, -0.5f, 0.5f, 1.0f, 0.0f, 0.0f,
-		0.5f, 0.5f, 0.5f, 0.8f, 0.3f, 0.5f,
-		-0.5f, 0.5f, 0.5f, 1.0f, 1.0f, 1.0f,
-		-0.5f, -0.5f, 0.5f, 1.0f, 1.0f, 2.0f
+		//0.5f, -0.5f, 0.5f, 1.0f, 0.0f, 0.0f,
+		//0.5f, 0.5f, 0.5f, 0.8f, 0.3f, 0.5f,
+		//-0.5f, 0.5f, 0.5f, 1.0f, 1.0f, 1.0f,
+		//-0.5f, -0.5f, 0.5f, 1.0f, 1.0f, 2.0f
 	};
 	VertexBuffer* interleaved_vbo = new VertexBuffer();
 	interleaved_vbo->LoadData(interleaved, 6 * 4);
